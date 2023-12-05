@@ -1,0 +1,19 @@
+ul li {
+    list-style: none;
+}
+
+.star img {
+    width: 20px;
+}
+
+i {
+    font-size: 3rem;;
+}
+
+.bio {
+    text-align: justify;
+}
+
+h1 {
+    word-wrap: break-word;
+}
