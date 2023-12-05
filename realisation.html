@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Mon Portfolio
+    </title>
+    <link rel="stylesheet" href="public/css/bootstrap_sketchy.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    
+    <link rel="stylesheet" href="public/css/bootstrap-icons-1.9.1/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="public/css/bootstrap-icons-1.9.1/bootstrap-icons.css"> -->
+    <link rel="shortcut icon" href="/public/image/full_star.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- 
+███╗   ██╗ █████╗ ██╗   ██╗
+████╗  ██║██╔══██╗██║   ██║
+██╔██╗ ██║███████║██║   ██║
+██║╚██╗██║██╔══██║╚██╗ ██╔╝
+██║ ╚████║██║  ██║ ╚████╔╝ 
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  
+-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Benoit MOTTIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#xp">Expériences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?page=realisation">
+                            Les réalisations
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 
+         ██╗██╗   ██╗███╗   ███╗██████╗  ██████╗ 
+         ██║██║   ██║████╗ ████║██╔══██╗██╔═══██╗
+         ██║██║   ██║██╔████╔██║██████╔╝██║   ██║
+    ██   ██║██║   ██║██║╚██╔╝██║██╔══██╗██║   ██║
+    ╚█████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝╚██████╔╝
+     ╚════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝  ╚═════╝ 
+        -->
+        <div class="container">
+
+        <section class="row  border ">
+            <div class="col-12 d-flex justify-content-center my-4">
+                <img src="./public/image/sprite_sonic_head.png" class="rounded-circle mx-2" alt="">
+                <h1 class="display-4">
+                    Benoit MOTTIN<br>
+                    Développeur WebBack
+                </h1>
+            </div>
+            
+            <hr class="my-2">
+            <div class="row">
+                <div class="col-8 offset-2 bio">
+                    <p>
+                        Après la formations Développeur Logiciel (Bac+2) à l'AFPA,
+                        une formation de Concepteur Développeur Applicatif (Bac + 4) à ENI École informatique
+                        et enfin Bachelor Chef de Projet Web et Conception de site internet (Bac+3/4) au FIM CCI Formation.
+                        Je réalise des applications web et des sites internet.
+                        Je fais aussi de la formation technique (HTML/CSS/JS/PHP) depuis 3 ans.
+                        Je sais aussi faire des <del>crêpes</del> cours.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center my-4">
+                            <a class="btn btn-primary btn-lg" href="#contact" role="button">Contactez-moi !</a>
+                        </div>
+                    </div>
+    
+                    <ul class="nav justify-content-center list-unstyled d-flex">
+                        <li><a href="" title="linkedin"><i class="bi bi-linkedin m-4"></i></a></li>
+                        <li><a href="" title="twitter"><i class="bi bi-twitter m-4"></i></a></li>
+                        <li><a href="" title="Mon blog"><i class="bi bi-wordpress m-4"></i></a></li>
+                        <li><a href="" title="Mon blog"><i class="bi bi-dribbble m-4"></i></a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </section>
+   
+
+        <section class="row my-3" id="skills">
+            <h2>Mes réalisations</h2>
+
+            <section class="row">
+                <div class="col">
+                    <h3>Solucepedia</h3>
+                    <details>
+                        <summary>Site de Cheatcode de jeux vidéo</summary>
+                        <p>C'est un site réaliser sous Symfony. Le but étant d'avoir une plateforme qui va lister tout
+                            les cheats codes pour les jeux.
+                            Le site est en recherche de redacteur.
+                        </p>
+                        <p>Ce projet me sert de laboratoire pour expérimenter des choses sous <strong>Symfony</strong>.
+                        </p>
+                    </details>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="row">
+                <div class="col">
+                    <h3>Application Taxe Apprentissage</h3>
+                    <details>
+                        <summary>Gestion de la collection du solde de la taxe d'apprentissage</summary>
+                        <p>
+                            J'ai réalisé dans le cadre d'une demande client de creer une application de gestion et de
+                            collecte de la taxe d'apprentissage pour un centre de formation abilité.
+                            Cette application se compose d'un formulaire qui permet de renseigné les différentes
+                            informations et d'une partie backoffice qui permet de filtrer par campagne de collect,
+                            d'exporter les informations sous format CSV et d'envoyer un reçu pdf par mail au déclarant.
+                            Cette application possede un connecteur vers la plateforme de paiement PayPlug. <br>
+                            <strong>Entierement réalisé avec Symfony/MySQL/Bootstrap.</strong>
+                        </p>
+                    </details>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="row">
+                <div class="col">
+                    <h3>Candidat</h3>
+                    <details>
+                        <summary>Application de gestion de candidat test de positionnement</summary>
+                        <p>C'est un projet qui permet de gerer les tests de positionnement des candidats pour des
+                            centres de formation. Le candidat reçoit directement par mail un lien d'invitation et peut
+                            ensuite réaliser ses test en distanciels</p>
+                    </details>
+                </div>
+            </section>
+            <hr>
+
+            <section class="row">
+                <div class="col">
+                    <h3>ELGG</h3>
+                    <details>
+                        <summary>Plusieurs plugins</summary>
+
+                        <p>
+                            C'est une plateforme collaborative Open Source. J'ai créer plusieurs Plugins pendant mon
+                            travail chez Jade SARL à Coutances.
+                            On avait créer des Themes et des plugins. Nous avions un posiotonnement professionnel.
+                        </p>
+                        <ul>
+                            <li>
+                                <h4>JadeScrum</h4>
+                                <p>Tableau Kanban, un outil proche du fonctionnement de Trello (www.trello.com) au cœur
+                                    d'Elgg. Permets la création de tableau Kanban, avec un système de carte déplaçable
+                                    entre les différentes étapes d'un projet (à faire, en cours, test, réalisé, etc.).
+                                    attribution de tâche aux membres de l'équipe, date d'échéance, liste de sous-tâche,
+                                    etc.</p>
+                            </li>
+                            <li>
+                                <h4>JadeCalendar</h4>
+                                <p>Calendrier général dans l'esprit de Google Calendar pour tous les membres de la
+                                    plateforme, ajout d'événement à la volée.</p>
+                            </li>
+                            <li>
+                                <h4>JadeIdeaLab</h4>
+                                <p>Système de boîte à idée collaborative. Permets à chacun de proposer une idée et de la
+                                    soumettre au vote des autres collaborateurs.</p>
+                            </li>
+                            <li>
+                                <h4>JadeScheduling</h4>
+                                <p>Un outil d'aide à la planification de rendez-vous, équivalent de Doodle
+                                    (www.doodle.com), évolution d'un module de la communauté. Une grande partie de
+                                    l'ergonomie a été revue et plusieurs fonctionnalités ont été ajoutées.
+                                    Possibilité de modifier le sondage en prenant en compte les réponses existantes,
+                                    gérer les réponses à trois possibilités (Oui, Non, Peut être), etc.</p>
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+            </section>
+            <hr>
+            <section class="row">
+                <div class="col">
+                    <h3>Blenzik</h3>
+                    <details>
+                        <summary>
+                            évolution d'un site de streaming
+                        </summary>
+                        <img src="./public/image/site_blenzik.png" alt="Site blenzik" class="img-fluid">
+                        <p>
+                            Site déjà existant qui permet l'organisation de tremplin musicaux et de concert en
+                            streaming.
+                            Sur ce site, je me suis occuper de la mise en place d'un module e-commerce, gestion de
+                            panier pour la billeterie des concerts.
+                            Mise en place de la partie streaming avec écran d'attente et direction du flux stream.
+                            Mise en place I18N.
+                            Diverses TMA.
+                        </p>
+                    </details>
+                </div>
+            </section>
+
+        </section>
+
+
+
+        <!-- 
+ ██████╗ ██████╗ ███╗   ██╗████████╗ █████╗  ██████╗████████╗
+██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+██║     ██║   ██║██╔██╗ ██║   ██║   ███████║██║        ██║   
+██║     ██║   ██║██║╚██╗██║   ██║   ██╔══██║██║        ██║   
+╚██████╗╚██████╔╝██║ ╚████║   ██║   ██║  ██║╚██████╗   ██║   
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝   ╚═╝   
+-->
+        <section class="row my-3" id="contact">
+            <h2>Contact</h2>
+            <div class="col">
+                <form action="#">
+                    <fieldset>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+
+                        <select class="form-control" name="subject" id="floatingSelect">
+                            <option value="10">Proposition de mission</option>
+                            <option value="20">Demande</option>
+                            <option value="30">autre</option>
+                        </select>
+
+
+                        <label for="msg-content">Votre message</label>
+                        <textarea name="msg-content" class="form-control" id="msg-content" cols="30"
+                            rows="10"></textarea>
+
+                        <fieldset class=" my-2">
+                            <input type="checkbox" name="has-rgpd" id="has-rgpd" class="form-check-input">
+                            <label for="has-rgpd">Vous acceptez que vos données soit collectées. Promis c'est juste pour
+                                vous recontacter</label>
+                        </fieldset>
+                        <input type="submit" value="Votre demande" class="btn btn-primary my-2">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="d-flex justify-content-center bg-primary pt-3 mt-2">
+        <hr>
+        <p>Benoit MOTTIN &copy; 2022 - <a href="#">Mon blog</a> - <a href="?page=login">Se connecter</a></p>
+    </footer>
+
+    <script src="/public/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+
+</body>
+
+</html>
